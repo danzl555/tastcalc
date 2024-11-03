@@ -1,0 +1,49 @@
+/* Стили для адаптива */
+
+@media (max-width: 768px) {
+  body {
+    background-size: 100%;
+    background-position-y: 110px;
+  }
+  form {
+    max-width: 90%;
+  }
+  #result {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  table {
+    font-size: 16px;
+  }
+  .total-font {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-size: 110%;
+    background-position-y: 120px;
+  }
+  form {
+    max-width: 100%;
+    padding: 0.5em;
+    font-size: 16px;
+  }
+  input,
+  select,
+  button {
+    padding: 0.4em;
+    font-size: 16px;
+  }
+  button {
+    height: 35px;
+    font-size: 16px;
+  }
+  table {
+    font-size: 14px;
+  }
+  .total-font {
+    font-size: 18px;
+  }
+}

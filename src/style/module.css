@@ -1,0 +1,50 @@
+/* Стили для модулей */
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+#width,
+#length {
+  width: 96%;
+}
+
+h2{
+  font-size: 30px;
+}
+
+button {
+  background-color: rgba(255, 119, 0, 1);
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  margin-top: 1em;
+  transition: 0.3s;
+}
+.section-siza{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#result h3 {
+  font-size: 30px;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+}
+td {
+  font-weight: 700;
+}
+th {
+  font-size: 24px;
+  background-color: #ffac6896;
+}
+.total-font {
+  color: rgb(156, 3, 3);
+  font-weight: 600;
+  font-size: 30px;
+}

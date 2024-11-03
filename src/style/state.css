@@ -1,0 +1,6 @@
+/* Стили для разных состояний */
+
+button:active {
+    background-color: rgb(240, 77, 1);
+  }
+  
