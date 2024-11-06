@@ -33,7 +33,24 @@
         <button type="button" onclick="calculateMaterials()">РАССЧИТАТЬ</button>
     </form>
     
-    <div id="result"></div>
+    <div id="result">
+        <h3>Результаты расчёта:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Наименование</th>
+                    <th>ед.</th>
+                    <th>кол-во</th>
+                    <th>сумма</th>
+                </tr>
+            </thead>
+            <tbody id="resultTableBody"></tbody>
+        </table>
+        
+        <p class="section-siza" id="totalArea"></p>
+        <p class="section-siza" id="sectionSize"></p>
+        <p class="total-font" id="totalCost"></p>
+    </div>
         
 </body>
 </html>
